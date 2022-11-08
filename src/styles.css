@@ -111,3 +111,37 @@ body {
   text-transform: uppercase;
   text-decoration: none;
 }
+
+/* subscribe */
+
+.subscribe {
+  margin: 32px;
+  background-color: #49625b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0 50px;
+}
+.subscribe-header {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 30px;
+}
+.subscribe-input {
+  height: 50px;
+  box-sizing: border-box;
+  padding: 15px;
+}
+.subscribe-mail {
+  width: 240px;
+}
+.subscribe-btn {
+  width: 170px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: #e0e0e0;
+  border: none;
+  cursor: pointer;
+}

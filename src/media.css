@@ -50,3 +50,67 @@
     left: 15px;
   }
 }
+
+@media screen and (max-width: 700px) {
+  .banner-content-header {
+    font-size: 16px;
+    width: 180px;
+  }
+  .banner-latest {
+    width: 120px;
+  }
+  .banner-bottom-text {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .banner {
+    grid-template-columns: 1fr;
+  }
+  .banner-content {
+    padding-left: 0;
+    grid-template-areas:
+      "header"
+      "latest"
+      "insta";
+    grid-gap: 8px 0;
+  }
+  .banner-content-header {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .banner-latest {
+    width: 100%;
+  }
+  .banner-bottom-text {
+    font-size: 28px;
+    bottom: 20px;
+    left: 25px;
+  }
+  .header-container {
+    grid-template-columns: 1fr 5fr;
+    padding: 30px 0;
+  }
+  .subscribe-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .subscribe-btn {
+    margin-top: 20px;
+    width: 40%;
+    padding: 10px 5px;
+    letter-spacing: normal;
+    font-size: 13px;
+  }
+  .subscribe-header {
+    font-size: 26px;
+  }
+  .subscribe-input {
+    height: 40px;
+  }
+  .subscribe-mail {
+    width: 220px;
+  }
+}
