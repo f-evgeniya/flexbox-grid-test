@@ -17,6 +17,9 @@
     bottom: 15px;
     left: 15px;
   }
+  .blog-img-desc-container {
+    bottom: 190px;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -48,6 +51,18 @@
     font-size: 16px;
     bottom: 15px;
     left: 15px;
+  }
+  .blog-img-desc {
+    width: 100px;
+    height: 90px;
+    font-size: 20px;
+  }
+  .blog-desc-container {
+    margin-top: 70px;
+    font-size: 14px;
+  }
+  .blog-img-desc-container {
+    bottom: 160px;
   }
 }
 
@@ -112,5 +127,20 @@
   }
   .subscribe-mail {
     width: 220px;
+  }
+  .blog {
+    grid-template-columns: 1fr;
+  }
+  .blog-img-desc {
+    width: 140px;
+    height: 120px;
+    font-size: 24px;
+  }
+  .blog-desc-container {
+    margin-top: 70px;
+    font-size: 14px;
+  }
+  .blog-img-desc-container{
+    bottom: 80px;
   }
 }
